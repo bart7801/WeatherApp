@@ -1,4 +1,4 @@
-package com.ui;
+package com.weather.ui;
 
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
@@ -8,7 +8,7 @@ public class Application extends javafx.application.Application {
 
     public void start(Stage primaryStage) {
         VBox root = new MainView();
-        primaryStage.setTitle("WEATHER  enter city nama, country ID");
+        primaryStage.setTitle("WEATHER  enter city nama, (country ID)");
         primaryStage.setScene(new Scene(root, 500, 600));
         primaryStage.show();
     }

@@ -1,6 +1,6 @@
-package com.ui;
+package com.weather.ui;
 
-import com.service.WeatherService;
+import com.weather.service.WeatherService;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;

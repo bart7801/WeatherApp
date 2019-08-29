@@ -1,6 +1,6 @@
-package com.repository.api;
+package com.weather.repository.api;
 
-import com.example.WeatherFullResponse;
+import com.weather.example.WeatherFullResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 
@@ -15,7 +15,10 @@ public class CityApi {
     }
 
     private String createUrlForWeather(String city) {
-        return "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=aff3ccdce49c632c4e74f438c5e8faa4";
+        //return "https://samples.openweathermap.org/data/2.5/weather?q=" + city + "&appid=b6907d289e10d714a6e88b30761fae22";
+        // return "https://samples.openweathermap.org/data/2.5/weather?q=" + city + "&appid=b6907d289e10d714a6e88b30761fae22";
+        //return "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=aff3ccdce49c632c4e74f438c5e8faa4";
+        return "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=bb67359d75f8081afed0b2a58595b3b1";
     }
 
     public WeatherFullResponse getData(String city) {

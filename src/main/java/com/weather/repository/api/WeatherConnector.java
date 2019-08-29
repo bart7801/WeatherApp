@@ -1,4 +1,4 @@
-package com.repository.api;
+package com.weather.repository.api;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;

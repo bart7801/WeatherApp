@@ -1,4 +1,3 @@
-
 package com.weather.example;
 
 import java.util.List;
@@ -8,21 +7,21 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "coord",
-    "weather",
-    "base",
-    "main",
-    "visibility",
-    "wind",
-    "clouds",
-    "dt",
-    "sys",
-    "timezone",
-    "id",
-    "name",
-    "cod"
+        "coord",
+        "weather",
+        "base",
+        "main",
+        "visibility",
+        "wind",
+        "clouds",
+        "dt",
+        "sys",
+        "timezone",
+        "id",
+        "name",
+        "cod"
 })
-public class Example {
+public class WeatherFullResponse {
 
     @JsonProperty("coord")
     private Coord coord;
